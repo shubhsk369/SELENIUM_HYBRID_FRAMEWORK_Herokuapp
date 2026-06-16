@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+    TestNG Suite Configuration
+    =============================
+    Parallel Execution: methods | classes | tests | none
+    thread-count: number of parallel threads (increase for more parallelism)
+
+    Run all: mvn test
+    Run smoke: mvn test -Dsurefire.suiteXmlFiles=testng-smoke.xml
+    Run with browser: mvn test -Dbrowser=firefox
+    Run with tags: mvn test -Dtags="@Login"
+-->
+
+<suite name="CucumberUIFramework - Full Regression Suite"
+       parallel="methods"
+       thread-count="2"
+       verbose="2"
+       data-provider-thread-count="2">
+
+    <listeners>
+        <listener class-name="com.automation.listeners.TestNGListener"/>
+    </listeners>
+
+    <test name="Cucumber BDD Tests - Parallel">
+        <classes>
+            <class name="com.automation.runners.TestRunner"/>
+        </classes>
+    </test>
+
+</suite>

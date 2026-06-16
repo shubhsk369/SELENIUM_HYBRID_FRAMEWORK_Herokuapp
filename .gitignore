@@ -1,0 +1,35 @@
+# Maven
+target/
+*.class
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+bin/
+
+# IDE - IntelliJ (ignore if team members use it)
+.idea/
+*.iml
+
+# Reports (generated at runtime - don't commit)
+reports/extent/
+reports/cucumber/
+reports/screenshots/
+reports/logs/
+test-output/
+
+# Downloads
+downloads/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Keep folder structure
+!reports/.gitkeep
+!downloads/.gitkeep

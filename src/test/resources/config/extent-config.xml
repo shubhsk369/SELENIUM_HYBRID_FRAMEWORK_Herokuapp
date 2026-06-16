@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <theme>STANDARD</theme>
+        <encoding>UTF-8</encoding>
+        <documentTitle>Cucumber UI Automation - Test Report</documentTitle>
+        <reportName>🧪 CucumberUIFramework | Automation Execution Report</reportName>
+        <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+        <styles>
+            .logo { display: none; }
+        </styles>
+    </configuration>
+</extentreports>
