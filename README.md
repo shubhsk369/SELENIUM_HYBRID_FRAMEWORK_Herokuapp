@@ -741,11 +741,11 @@ sudo apt-get install -y google-chrome-stable
 
 ## 👤 Author
 
-**Designed & Built by:** [Your Name]  
+**Designed & Built by:** **SHUBHAM M.KAMTHE**  
 **Tech Stack:** Java 21 | Selenium 4 | Cucumber 7 | TestNG | Maven | Jenkins | Git
 
 ---
 
 ## 📄 License
 
-This project is for learning and portfolio purposes.
+This project is for learning purposes📋
